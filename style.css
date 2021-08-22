@@ -1,0 +1,191 @@
+*{
+ padding: 0;
+ margin: 0;
+
+}
+.clear-fix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+p{
+    color: rgb(105, 103, 103);
+}
+
+.full-website{
+    width: 100vw;
+}
+.header-section{
+    background-color: #22c3a3;
+}
+.header-section .header-logo{
+   float: left;
+   padding: 20px 20px;
+   color: #fff;
+   font-size: 27px;
+}
+.header-menu{
+    float: right;
+}
+.header-menu ul{
+    list-style: none;
+    margin-right: 60px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 26px 15px;
+    margin-right: 0px;
+    color: #fff;
+
+
+}
+
+.banner-section{
+    background-image: url(https://i.ibb.co/9rzRcpt/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 595px;
+    text-align: center;
+    color: #fff;
+
+}
+.banner-section h1 {
+    position: relative;
+    top: 283px;
+    font-size: 64px;
+}
+.banner-section p {
+    position: relative;
+    top: 294px;
+    word-spacing: 5px;
+    color: #fff;
+}
+.banner-section .learn-div {
+    position: relative;
+    top: 341px;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    Font-family: Open Sans, sans-serif
+}
+
+.service-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    border-bottom: 2px solid #22c3a3;
+}
+.service-section i{
+    color:  #22c3a3;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.service-section h1{}
+.service-section .paragraph{
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+.service-section .div-1, .div-2, .div-3, .div-4 {
+    width: 251px;
+    display: inline-block;
+    margin: 58px;
+    Font-family: Open Sans, sans-serif
+}
+.service-section h2{
+    padding-bottom: 10px;
+}
+
+.container-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-section h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.container-section .content-p{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.container-section p{
+    padding-bottom: 40px;
+    Font-family: Open Sans, sans-serif;
+
+
+}
+.container-section .img-div{
+    float: left;
+    margin-right: 31px;
+    margin-left: 31px;
+}
+.content-1, .content-2, .content-3{
+    text-align: justify;
+    width: 1643px;
+    Font-family: Open Sans, sans-serif
+   
+}
+.container-section h2{
+    color: rgb(83, 80, 80);
+    font-weight: 100;
+}
+
+
+.container-bottom{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.container-bottom h1{
+    padding-bottom: 20px;
+}
+.container-bottom p{
+    padding-bottom: 40px;
+}
+.container-bottom .div1, .div2, .div3{
+    width: 423px;
+    display: inline-block;
+  text-align: center;
+}
+.container-bottom i{
+    color: #22c3a3;
+    padding-bottom: 10px;
+}
+.container-bottom .div2{
+    position: relative;
+    top: -19px;
+}
+
+.footer-section{
+    background-color: #22c3a3;
+}
+.footer-section ul{
+    list-style: none;
+    margin-left: 607px;
+}
+.footer-section ul li{
+    float: left;
+}
+.footer-section ul li a {
+    padding: 20px 16px;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+}
+.footer-bottom{
+    background-color: #000;
+}
+.footer-bottom p{
+    color: rgb(92, 91, 91);
+    text-align: center;
+    padding: 20px;
+}
